@@ -15,7 +15,7 @@ class PajamuIrasas(Irasas):
         self.info = info
 
     def __str__(self):
-        return f"Pajamos: {self.suma}, siuntėjas - {self.siuntejas}, info: {self.info}"
+        return f"Mano Pajamos: {self.suma}, siuntėjas - {self.siuntejas}, info: {self.info}"
 
 
 class IslaiduIrasas(Irasas):
@@ -25,7 +25,7 @@ class IslaiduIrasas(Irasas):
         self.isigyta = isigyta
 
     def __str__(self):
-        return f"Išlaidos: {self.suma}, mokėjimo būdas - {self.budas}, įsigyta prekė/paslauga: {self.isigyta}"
+        return f"Mano Išlaidos: {self.suma}, mokėjimo būdas - {self.budas}, įsigyta prekė/paslauga: {self.isigyta}"
 
 
 class Biudzetas:
