@@ -25,7 +25,7 @@ class IslaiduIrasas(Irasas):
         self.isigyta = isigyta
 
     def __str__(self):
-        return f"Mano Išlaidos: {self.suma}, mokėjimo būdas - {self.budas}, įsigyta prekė/paslauga: {self.isigyta}"
+        return f"Mano Išlaidos: {self.suma}, mokėjimo būdas (grynais/kortele) - {self.budas}, įsigyta prekė/paslauga: {self.isigyta}"
 
 
 class Biudzetas:
